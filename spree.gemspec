@@ -24,5 +24,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'spree_backend', version
   s.add_dependency 'spree_frontend', version
   s.add_dependency 'spree_sample', version
-  s.add_dependency 'spree_cmd', version
+  s.add_dependency 'spree_cmd', '~> 2.3.13' # 2.3.14.beta seems to no longer exist
 end
